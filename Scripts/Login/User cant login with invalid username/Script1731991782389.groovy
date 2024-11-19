@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://smpd.wibidigital.com/login')
+
+WebUI.setText(findTestObject('Object Repository/Page_BTMS/input_Email address_email'), GlobalVariable.userEmail)
+
+WebUI.setText(findTestObject('Object Repository/Page_BTMS/input_Password_password'), '')
+
+WebUI.verifyAlertPresent(0)
+
+WebUI.verifyElementPresent(findTestObject('Page_BTMS/blank_Password_Alert'), 0)
+
