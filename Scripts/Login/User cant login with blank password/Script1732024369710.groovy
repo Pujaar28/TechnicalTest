@@ -21,11 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://smpd.wibidigital.com/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_BTMS/input_Email address_email'), GlobalVariable.userEmail)
+WebUI.setText(findTestObject('Object Repository/login_Page/field_Email'), GlobalVariable.userEmail)
 
-WebUI.click(findTestObject('Object Repository/Page_BTMS/button_Sign In'))
+WebUI.click(findTestObject('Object Repository/login_Page/button_Sign In'))
 
-WebUI.verifyElementPresent(findTestObject('Page_BTMS/blank_Password_Alert'), 0)
+WebUI.verifyElementPresent(findTestObject('login_Page/blank_Password_Alert'), 0)
 
 WebUI.verifyTextPresent('The password field is required.', false)
+
+WebUI.closeBrowser()
 

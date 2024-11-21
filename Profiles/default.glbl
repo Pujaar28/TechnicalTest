@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'admin@gmail.com\r\n'</initValue>
+      <initValue>'admin@gmail.com'</initValue>
       <name>userEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'hUKwJTbofgPU9eVlw/CnDQ=='</initValue>
+      <initValue>'admin123'</initValue>
       <name>userPassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

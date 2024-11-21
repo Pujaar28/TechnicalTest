@@ -14,22 +14,23 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.kms.katalon.entity.global.GlobalVariableEntity
-
+import com.kms.katalon.entity.global.GlobalVariableEntity as GlobalVariableEntity
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://smpd.wibidigital.com/login')
+WebUI.navigateToUrl(GlobalVariable.baseURL)
 
-WebUI.setText(findTestObject('Object Repository/Page_BTMS/input_Email address_email'), GlobalVariable.userEmail)
+WebUI.setText(findTestObject('Object Repository/login_Page/field_Email'), GlobalVariable.userEmail)
 
-WebUI.setText(findTestObject('Object Repository/Page_BTMS/input_Password_password'), GlobalVariable.userPassword)
+WebUI.setText(findTestObject('Object Repository/login_Page/field_Password'), GlobalVariable.userPassword)
 
-WebUI.click(findTestObject('Object Repository/Page_BTMS/button_Sign In'))
+WebUI.click(findTestObject('Object Repository/login_Page/button_Sign In'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BTMS/p_BTMS'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/dashboard_Page/masterdata_text'),0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/login_Page/p_BTMS'), 0)
 
 WebUI.closeBrowser()
 

@@ -21,11 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://smpd.wibidigital.com/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_BTMS/input_Email address_email'), GlobalVariable.userEmail)
+WebUI.setText(findTestObject('Object Repository/login_Page/field_Email'), 'test@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_BTMS/input_Password_password'), '')
+WebUI.setText(findTestObject('Object Repository/login_Page/field_Password'), GlobalVariable.userPassword)
 
-WebUI.verifyAlertPresent(0)
+WebUI.click(findTestObject('login_Page/button_Sign In'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Page_BTMS/blank_Password_Alert'), 0)
+WebUI.verifyElementPresent(findTestObject('login_Page/invalid_Password_Or_Username'), 0)
+
+WebUI.verifyElementText(findTestObject('login_Page/invalid_Password_Or_Username'), 'The provided credentials do not match our records.')
+
+WebUI.closeBrowser()
 
