@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009_user_can_change_language_from_english_to_ndonesia</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>14f1ead4-4992-4720-8a86-6b8728b95505</testCaseGuid>
+</TestCaseEntity>

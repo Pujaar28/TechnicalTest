@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_User_navigate_to_job_division_page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6821cd7e-31fb-41c3-b47d-a9c6975272f8</testCaseGuid>
+</TestCaseEntity>

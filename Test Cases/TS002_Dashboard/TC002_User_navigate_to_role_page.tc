@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_User_navigate_to_role_page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1bb2bd70-6c6c-4539-a314-76054cdd0cc8</testCaseGuid>
+</TestCaseEntity>

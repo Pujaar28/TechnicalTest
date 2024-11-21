@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>app_Logo</name>
+   <tag></tag>
+   <elementGuidId>76958017-4f75-4393-b87d-063614de162f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;top&quot;]/div[1]/div/div/div[1]/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.logo-text.ms-2.d-none.d-sm-block</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>71772405-23bd-419d-848b-be080c4feb7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>logo-text ms-2 d-none d-sm-block</value>
+      <webElementGuid>675af597-8263-4791-b74a-8ff8c2b9d0c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BTMS</value>
+      <webElementGuid>0475d1e9-14e8-4fc0-ba99-ed7d727a9e50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarDefault&quot;)/div[@class=&quot;collapse navbar-collapse justify-content-between&quot;]/div[@class=&quot;navbar-logo&quot;]/a[@class=&quot;navbar-brand me-1 me-sm-3&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/p[@class=&quot;logo-text ms-2 d-none d-sm-block&quot;]</value>
+      <webElementGuid>cf8bf9a3-0fd3-44fb-a730-7a17348d6f1f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='navbarDefault']/div/div/a/div/div/p</value>
+      <webElementGuid>2e87bd77-5665-40a8-9bde-d977f83a305e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/preceding::p[1]</value>
+      <webElementGuid>038d3a10-c2c2-4905-9f05-74739fcd0d9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/preceding::p[1]</value>
+      <webElementGuid>19449886-0620-4c3e-9da9-a465f178308d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>0ab379a8-9455-4518-80b7-e7c88e3110b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'BTMS' or . = 'BTMS')]</value>
+      <webElementGuid>d2080e20-e54c-49ed-b8b2-0820b43464bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

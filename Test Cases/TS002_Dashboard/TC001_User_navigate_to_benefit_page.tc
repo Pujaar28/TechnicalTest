@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_User_navigate_to_benefit_page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70f3b402-0bf1-4eda-9701-ad4fe6c45868</testCaseGuid>
+</TestCaseEntity>

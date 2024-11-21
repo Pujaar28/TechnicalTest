@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_User_cant_login_with_invalid_username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd7c27c7-c96e-4fa8-a171-f7900ac3c6c5</testCaseGuid>
+</TestCaseEntity>

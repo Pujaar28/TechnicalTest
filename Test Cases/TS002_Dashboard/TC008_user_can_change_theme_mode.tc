@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_user_can_change_theme_mode</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>28b89d64-c41a-41bb-be0d-f39671f1a1a1</testCaseGuid>
+</TestCaseEntity>

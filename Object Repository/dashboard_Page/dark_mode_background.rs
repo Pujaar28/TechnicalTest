@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>masterdata_text</name>
+   <name>dark_mode_background</name>
    <tag></tag>
-   <elementGuidId>0955330f-e0ed-4c1d-8dae-6e46d9668d98</elementGuidId>
+   <elementGuidId>605192e1-432a-4ebe-9ce3-6981cda02a59</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,10 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;top&quot;]/div[1]/div/div/div[1]/h4</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//html[contains(@class, 'dark')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

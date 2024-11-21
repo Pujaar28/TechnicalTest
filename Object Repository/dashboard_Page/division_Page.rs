@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>masterdata_text</name>
+   <name>division_Page</name>
    <tag></tag>
-   <elementGuidId>0955330f-e0ed-4c1d-8dae-6e46d9668d98</elementGuidId>
+   <elementGuidId>e6d7e2ce-6853-4b2a-a45f-9cee3b3d6d07</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,10 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;top&quot;]/div[1]/div/div/div[1]/h4</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//*[@id=&quot;top&quot;]/div[1]/div/div/div[1]/a[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

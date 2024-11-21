@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>masterdata_text</name>
+   <name>change_theme_mode</name>
    <tag></tag>
-   <elementGuidId>0955330f-e0ed-4c1d-8dae-6e46d9668d98</elementGuidId>
+   <elementGuidId>6d87f2a9-3f2e-4d6a-a34a-b5be99dc1718</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,10 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;top&quot;]/div[1]/div/div/div[1]/h4</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//*[@id=&quot;navbarDefault&quot;]/div/ul/li[1]/div/label[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
