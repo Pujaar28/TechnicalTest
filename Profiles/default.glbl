@@ -19,4 +19,9 @@
       <initValue>'admin123'</initValue>
       <name>userPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'QA Engineer'</initValue>
+      <name>roleX</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
