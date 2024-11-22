@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.baseURL)
+
+WebUI.setText(findTestObject('login_Page/field_Email'), GlobalVariable.userEmail)
+
+WebUI.setText(findTestObject('login_Page/field_Password'), GlobalVariable.userPassword)
+
+WebUI.click(findTestObject('login_Page/button_Sign In'))
+
+WebUI.click(findTestObject('dashboard_Page/role_Page'))
+
+WebUI.setText(findTestObject('role_Page/field_search_role'), GlobalVariable.roleX)
+
+WebUI.click(findTestObject('role_Page/button_set_role'))
+
+WebUI.click(findTestObject('role_Page/checkbox_ratio_pengeluaran'))
+
+WebUI.scrollToPosition(0, 5000)
+
+WebUI.click(findTestObject('role_Page/checkbox_total_pengeluaran_divisi_admin'))
+
+WebUI.click(findTestObject('role_Page/button_save_edit'))
+
+WebUI.closeBrowser()
+

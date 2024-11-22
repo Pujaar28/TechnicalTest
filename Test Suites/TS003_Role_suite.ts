@@ -32,11 +32,4 @@
       <testCaseId>Test Cases/TS003_Role_Page/TC003_user_can_delete_role</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>4b9b4418-3fb6-459b-a707-bb70c2a990da</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TS003_Role_Page/TC004_user_can_edit_role</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>

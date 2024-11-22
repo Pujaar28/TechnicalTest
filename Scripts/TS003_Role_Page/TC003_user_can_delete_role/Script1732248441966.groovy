@@ -29,7 +29,7 @@ WebUI.click(findTestObject('login_Page/button_Sign In'))
 
 WebUI.click(findTestObject('dashboard_Page/role_Page'))
 
-WebUI.setText(findTestObject('role_Page/field_search_role'), 'QA Engineer')
+WebUI.setText(findTestObject('role_Page/field_search_role'), GlobalVariable.roleX)
 
 WebUI.click(findTestObject('role_Page/button_set_role'))
 
@@ -41,3 +41,4 @@ WebUI.setText(findTestObject('role_Page/field_search_role'), GlobalVariable.role
 
 WebUI.verifyTextPresent('No matching records found', false)
 
+WebUI.closeBrowser()
