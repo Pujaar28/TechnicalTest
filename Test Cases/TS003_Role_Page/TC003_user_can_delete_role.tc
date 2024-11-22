@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC004_user_can_delete_role</name>
+   <name>TC003_user_can_delete_role</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

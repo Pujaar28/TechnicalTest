@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.baseURL)
+
+WebUI.setText(findTestObject('login_Page/field_Email'), GlobalVariable.userEmail)
+
+WebUI.setText(findTestObject('login_Page/field_Password'), GlobalVariable.userPassword)
+
+WebUI.click(findTestObject('login_Page/button_Sign In'))
+
+WebUI.click(findTestObject('dashboard_Page/role_Page'))
+
+WebUI.setText(findTestObject('role_Page/field_search_role'), 'QA Engineer')
+
+WebUI.click(findTestObject('role_Page/button_set_role'))
+
+WebUI.click(findTestObject('role_Page/button_delete_role'))
+
+WebUI.click(findTestObject('role_Page/button_agree_delete'))
+
+WebUI.setText(findTestObject('role_Page/field_search_role'), GlobalVariable.roleX)
+
+WebUI.verifyTextPresent('No matching records found', false)
+
